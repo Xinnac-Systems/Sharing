@@ -1,0 +1,19 @@
+
+{
+  "runtimeOptions": {
+    "tfm": "net60",
+    "framework": {
+      "name": "Microsoft.NETCore.App",
+      "version": "6.0.21"
+    }
+  },
+  "ApplicationSettings": {       
+        "AUTHURL":"https://uatauakua.auashreetron.com/auakua25uat/api/auakuaclientgateway/auth",
+        "KYCURL":"https://uatauakua.auashreetron.com/auakua25uat/api/auakuaclientgateway/kyc",
+        "OTPURL":"https://uatauakua.auashreetron.com/auakua25uat/api/auakuaclientgateway/otp",
+        "DEMOURL":"https://uatauakua.auashreetron.com/auakua25uat/api/auakuaclientgateway/demo",
+        "PreprodPublickey":"C:\\Projects\\Python\\aua-kua-python\\auakua-python-middleware\\certificates\\uidai_auth_encrypt_preprod.cer",
+        "ProdPublicKey":"C:\\Projects\\Python\\aua-kua-python\\auakua-python-middleware\\certificates\\uidai_auth_prod.cer",
+        "TransactionTimeout":"10"
+    }
+}
